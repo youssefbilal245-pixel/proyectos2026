@@ -1,0 +1,16 @@
+export const COLORS = {
+  bg: '#000000',
+  deepPurple: '#0a000f',
+  neonCyan: '#00ffff',
+  neonMagenta: '#ff00aa',
+  neonOrange: '#ff6600',
+  dragonRed: '#cc0000',
+  dragonFire: '#ff3300',
+  gold: '#ffd700',
+  darkGold: '#aa8800',
+  smoke: 'rgba(20, 0, 40, 0.85)',
+  bloodRed: '#8b0000',
+  electricBlue: '#0044ff',
+  glowCyan: 'rgba(0,255,255,0.15)',
+  glowMagenta: 'rgba(255,0,170,0.15)',
+};
