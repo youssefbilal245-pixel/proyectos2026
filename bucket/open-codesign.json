@@ -1,0 +1,30 @@
+{
+    "version": "1.0.0",
+    "description": "Open CodesignAI - AI-powered collaborative design and coding tool by OpenCoworkAI",
+    "homepage": "https://github.com/OpenCoworkAI/open-codesign",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/OpenCoworkAI/open-codesign/releases/download/v1.0.0/open-codesign-win-x64.zip",
+            "hash": "PLACEHOLDER_SHA256_HASH_64BIT"
+        },
+        "32bit": {
+            "url": "https://github.com/OpenCoworkAI/open-codesign/releases/download/v1.0.0/open-codesign-win-x86.zip",
+            "hash": "PLACEHOLDER_SHA256_HASH_32BIT"
+        }
+    },
+    "bin": "open-codesign.exe",
+    "checkver": {
+        "github": "https://github.com/OpenCoworkAI/open-codesign"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/OpenCoworkAI/open-codesign/releases/download/v$version/open-codesign-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/OpenCoworkAI/open-codesign/releases/download/v$version/open-codesign-win-x86.zip"
+            }
+        }
+    }
+}
